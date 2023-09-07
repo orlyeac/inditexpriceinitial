@@ -1,7 +1,7 @@
 package com.tuxpoli.priceselection.price.infrastructure.persistence;
 
-import com.tuxpoli.priceselection.price.domain.Price;
-import com.tuxpoli.priceselection.price.domain.PriceRepository;
+import com.tuxpoli.priceselection.price.domain.entity.Price;
+import com.tuxpoli.priceselection.price.domain.repository.PriceRepository;
 import com.tuxpoli.priceselection.price.infrastructure.mapper.PriceEntityToPriceMapper;
 import com.tuxpoli.priceselection.price.infrastructure.mapper.PriceToPriceEntityMapper;
 import lombok.AllArgsConstructor;

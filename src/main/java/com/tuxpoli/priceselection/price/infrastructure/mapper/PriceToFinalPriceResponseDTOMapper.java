@@ -1,6 +1,6 @@
 package com.tuxpoli.priceselection.price.infrastructure.mapper;
 
-import com.tuxpoli.priceselection.price.domain.Price;
+import com.tuxpoli.priceselection.price.domain.entity.Price;
 import com.tuxpoli.priceselection.price.infrastructure.dto.FinalPriceResponseDTO;
 import org.springframework.stereotype.Component;
 

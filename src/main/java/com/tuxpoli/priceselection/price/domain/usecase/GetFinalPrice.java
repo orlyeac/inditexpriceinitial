@@ -1,4 +1,6 @@
-package com.tuxpoli.priceselection.price.domain;
+package com.tuxpoli.priceselection.price.domain.usecase;
+
+import com.tuxpoli.priceselection.price.domain.entity.Price;
 
 import java.time.LocalDateTime;
 

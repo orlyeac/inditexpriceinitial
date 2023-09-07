@@ -1,5 +1,8 @@
-package com.tuxpoli.priceselection.price.domain;
+package com.tuxpoli.priceselection.price.domain.service;
 
+import com.tuxpoli.priceselection.price.domain.usecase.GetFinalPrice;
+import com.tuxpoli.priceselection.price.domain.repository.PriceRepository;
+import com.tuxpoli.priceselection.price.domain.entity.Price;
 import com.tuxpoli.priceselection.price.domain.exception.FinalPriceNotFoundException;
 
 import java.time.LocalDateTime;

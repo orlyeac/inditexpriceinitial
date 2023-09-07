@@ -1,4 +1,4 @@
-package com.tuxpoli.priceselection.price.domain;
+package com.tuxpoli.priceselection.price.domain.entity;
 
 import java.time.LocalDateTime;
 import java.math.BigDecimal;

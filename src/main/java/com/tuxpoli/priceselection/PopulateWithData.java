@@ -1,7 +1,7 @@
 package com.tuxpoli.priceselection;
 
-import com.tuxpoli.priceselection.price.domain.Price;
-import com.tuxpoli.priceselection.price.domain.PriceRepository;
+import com.tuxpoli.priceselection.price.domain.entity.Price;
+import com.tuxpoli.priceselection.price.domain.repository.PriceRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

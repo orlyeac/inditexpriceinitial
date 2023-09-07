@@ -1,4 +1,6 @@
-package com.tuxpoli.priceselection.price.domain;
+package com.tuxpoli.priceselection.price.domain.repository;
+
+import com.tuxpoli.priceselection.price.domain.entity.Price;
 
 import java.time.LocalDateTime;
 import java.util.List;

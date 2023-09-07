@@ -1,6 +1,6 @@
-package com.tuxpoli.priceselection.price.application;
+package com.tuxpoli.priceselection.price.application.controller;
 
-import com.tuxpoli.priceselection.price.domain.GetFinalPrice;
+import com.tuxpoli.priceselection.price.domain.usecase.GetFinalPrice;
 import com.tuxpoli.priceselection.price.infrastructure.dto.FinalPriceResponseDTO;
 import com.tuxpoli.priceselection.price.infrastructure.mapper.PriceToFinalPriceResponseDTOMapper;
 import org.springframework.format.annotation.DateTimeFormat;
