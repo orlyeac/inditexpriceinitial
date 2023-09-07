@@ -101,7 +101,7 @@ http://localhost:8080/api/v1/prices/final
 ```
 
  y pasando los parámetros que se indican a continuación
- - *applicationDate* (una fecha con formato "yyyy-MM-ddTHH.mm.ss")
+ - *applicationDate* (una fecha con formato "yyyy-MM-dd-HH.mm.ss")
  - *productId*
  - *brandId*
 
