@@ -23,6 +23,6 @@ public class GetFinalPriceService implements GetFinalPrice {
         return applicablePrices
                 .stream()
                 .max(Comparator.comparing(Price::getPriority))
-                .orElseThrow(() -> new IllegalStateException("No price for that date and product"));
+                .orElseThrow(() -> new FinalPriceNotFoundException("No price for that date and product"));
     }
 }
